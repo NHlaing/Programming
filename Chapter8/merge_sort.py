@@ -18,5 +18,5 @@ def mergesort(w):
         return w
     else:
         mid=len(w)//2
-    return merge(mergesort(w[:mid]), mergesort(w[mid:]))
+        return merge(mergesort(w[:mid]), mergesort(w[mid:]))
 print(mergesort([4,5,1,3,9,7,2,10]))
